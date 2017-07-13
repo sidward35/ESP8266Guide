@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sid.esp8266guide.MainActivity">
+    <item
+        android:id="@+id/action_home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_deauth"
+        android:orderInCategory="100"
+        android:title="Deauther"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_detect"
+        android:orderInCategory="100"
+        android:title="Deauth Detector"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_troll"
+        android:orderInCategory="100"
+        android:title="Captive Portal"
+        app:showAsAction="never" />
+</menu>
